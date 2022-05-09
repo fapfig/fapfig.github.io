@@ -57,7 +57,7 @@ footer_links:
 #copyright: "This site is made with <3 by *me, myself, and I*."
 
 # Time zone
-timezone: Europe/London
+timezone: null
 
 # Excerpt separator
 excerpt_separator: <!--more-->
