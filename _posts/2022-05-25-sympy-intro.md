@@ -4,8 +4,6 @@ title: Introduction to SymPy
 categories: [Programming, Python, Sympy]
 ---
 
-# Introduction to SymPy
-
 [![sympy](\assets\2022-05-25-sympy-intro\sympy.svg)](\assets\2022-05-25-sympy-intro\sympy.svg){:.glightbox}
 
 [SymPy](https://www.sympy.org) is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible.
