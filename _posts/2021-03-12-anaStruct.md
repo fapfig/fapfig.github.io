@@ -1,4 +1,18 @@
+---
+layout: post
+title: Solving 2D Frames and Trusses using Python
+categories: [Engineering, Python]
+---
+
+In this post, I will show you how to analyse 2D Frames and Trusses using the python library anaStruct.
+
 [anaStruct](https://github.com/ritchie46/anaStruct) is a python library for the analysis of 2D Frames and trusses. For more information please visit the [anaStruct’s documentation](https://anastruct.readthedocs.io/en/latest/).
+
+Before you run the examples below you need to install the library. For this, type in the terminal or in your Jupyter notebook the following::
+
+`pip install anastruct`
+
+Then, you can import the necessary libraries.
 
 ```python
 import math
