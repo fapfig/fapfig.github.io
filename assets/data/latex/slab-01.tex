@@ -1,0 +1,87 @@
+\documentclass{scrreprt}
+\usepackage{stanli}
+\begin{document}
+
+%%tikz --scale 1 --size 1000,500 -f png -p stanli --save=images/estrutura_2.png
+\begin{tikzpicture}
+\begin{scope}[shift={(1.5,3)}]
+\scaling{1};%
+\draw [help lines,step =.5] ( 0 , 0) grid (12 ,10);
+\node[align=left] at (0,12.5) {Slabs};
+%draw the slab  
+\point{a}{0}{0};
+\point{b}{0}{5};
+\point{c}{0}{10};
+\point{d}{6}{10};
+\point{e}{12}{10};
+\point{f}{12}{5};
+\point{g}{12}{0}
+\point{h}{6}{0}
+\point{i}{6}{5}
+%Slab beams:    
+\beam{1}{a}{b}[0][1];
+\beam{1}{b}{c}[1][1];
+\beam{1}{c}{d}[2][3];
+\beam{1}{d}{e}[][];
+\beam{1}{e}{f};
+\beam{1}{f}{g};
+\beam{1}{g}{h};
+\beam{1}{h}{a}
+\beam{1}{h}{i};
+\beam{1}{i}{h};     
+\beam{1}{i}{d};
+\beam{1}{d}{i};
+\beam{1}{b}{i}
+\beam{1}{i}{b}
+\beam{1}{i}{f}
+\beam{1}{f}{i}
+% Numbering beams   
+\notation{1}{a}{A}[below left];
+\notation{1}{b}{B}[below left];
+\notation{1}{c}{C}[above left];
+\notation{1}{d}{D}[above];
+\notation{1}{e}{E}[above right];
+\notation{1}{f}{F}[right];
+\notation{1}{g}{G}[below right];
+\notation{1}{h}{H}[below];
+\notation{1}{i}{I};
+%slab dimensions    
+\dimensioning{2}{a}{b}{-1}[$5,0$];
+\dimensioning{2}{b}{c}{-1}[$5,0$];
+\dimensioning{1}{c}{d}{11}[$6,0$];
+\dimensioning{1}{d}{e}{11}[$6,0$]
+%points for the diagram
+\point{A}{0}{-2};
+\point{B}{6}{-2};
+\point{C}{12}{-2};
+\point{D}{14}{0};
+\point{E}{14}{5};
+\point{F}{14}{10}
+\point{G}{14}{2.5}; %middle beam point
+\point{H}{14}{7.5}; %middle beam point
+%Diagram - Beams
+\beam{2}{A}{B};
+\beam{2}{B}{C};
+\beam{2}{D}{E};
+\beam{2}{E}{F}
+%Supports for the diagram:
+\support{1}{A};
+\support{1}{B};
+\support{1}{C};
+\support{2}{D}[90];
+\support{1}{E}[90];
+\support{1}{F}[90];
+%loads
+\lineload{1}{A}{C}[0.5][0.5][.05];
+\lineload{1}{D}{F}[0.5][0.5][.1];
+%Moment Diagram 
+\internalforces {A}{B}{0}{-.5}[-.5][ blue!40 ];
+\internalforces {B}{C}{-.5}{0}[-.5][ blue!40 ];
+\internalforces {D}{G}{0}{.5}[-.5][ blue!40 ];
+\internalforces {G}{E}{.5}{-.5}[.5][ blue!40 ];
+\internalforces {E}{H}{-0.5}{.5}[-.5][ blue!40 ];
+\internalforces {H}{F}{.5}{0}[.5][ blue!40 ];
+\end{scope}    
+\end{tikzpicture}
+
+\end{document}
