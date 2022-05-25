@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spell Checker in Jupyter
+title: Introduction to SymPy
 categories: [Programming, Python, Sympy]
 ---
 
