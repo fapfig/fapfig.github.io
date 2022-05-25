@@ -4,7 +4,7 @@ title: Solving 2D Frames and Trusses using Python
 categories: [Engineering, Python]
 ---
 
-In this post, I will show you how to analyse 2D Frames and Trusses using the python library anaStruct.
+In this post, I will show you how to analyse 2D frames and Trusses using the python library anaStruct.
 
 [anaStruct](https://github.com/ritchie46/anaStruct) is a python library for the analysis of 2D Frames and trusses. For more information please visit the [anaStruct’s documentation](https://anastruct.readthedocs.io/en/latest/).
 
@@ -53,17 +53,17 @@ ss.show_bending_moment()
 ss.show_displacement()
 ```
 
-![png](\assets\2021-03-12-anaStruct\output_4_0.png)
+![png](\assets\2022-05-22-anaStruct\output_4_0.png)
 
-![png](\assets\2021-03-12-anaStruct\output_4_1.png)
+![png](\assets\2022-05-22-anaStruct\output_4_1.png)
 
-![png](\assets\2021-03-12-anaStruct\output_4_2.png)
+![png](\assets\2022-05-22-anaStruct\output_4_2.png)
 
-![png](\assets\2021-03-12-anaStruct\output_4_3.png)
+![png](\assets\2022-05-22-anaStruct\output_4_3.png)
 
-![png](\assets\2021-03-12-anaStruct\output_4_4.png)
+![png](\assets\2022-05-22-anaStruct\output_4_4.png)
 
-![png](\assets\2021-03-12-anaStruct\output_4_5.png)
+![png](\assets\2022-05-22-anaStruct\output_4_5.png)
 
 ```python
 ss = SystemElements(EA=15000, EI=5000)
@@ -95,17 +95,17 @@ ss.show_bending_moment()
 ss.show_displacement()
 ```
 
-![png](\assets\2021-03-12-anaStruct\output_5_0.png)
+![png](\assets\2022-05-22-anaStruct\output_5_0.png)
 
-![png](\assets\2021-03-12-anaStruct\output_5_1.png)
+![png](\assets\2022-05-22-anaStruct\output_5_1.png)
 
-![png](\assets\2021-03-12-anaStruct\output_5_2.png)
+![png](\assets\2022-05-22-anaStruct\output_5_2.png)
 
-![png](\assets\2021-03-12-anaStruct\output_5_3.png)
+![png](\assets\2022-05-22-anaStruct\output_5_3.png)
 
-![png](\assets\2021-03-12-anaStruct\output_5_4.png)
+![png](\assets\2022-05-22-anaStruct\output_5_4.png)
 
-![png](\assets\2021-03-12-anaStruct\output_5_5.png)
+![png](\assets\2022-05-22-anaStruct\output_5_5.png)
 
 ## Truss Elements
 
@@ -134,13 +134,13 @@ ss.show_axial_force()
 ss.show_displacement(factor=10)
 ```
 
-![png](\assets\2021-03-12-anaStruct\output_8_0.png)
+![png](\assets\2022-05-22-anaStruct\output_8_0.png)
 
-![png](\assets\2021-03-12-anaStruct\output_8_1.png)
+![png](\assets\2022-05-22-anaStruct\output_8_1.png)
 
-![png](\assets\2021-03-12-anaStruct\output_8_2.png)
+![png](\assets\2022-05-22-anaStruct\output_8_2.png)
 
-![png](\assets\2021-03-12-anaStruct\output_8_3.png)
+![png](\assets\2022-05-22-anaStruct\output_8_3.png)
 
 ### Example 2
 
@@ -175,13 +175,13 @@ ss.show_axial_force()
 ss.show_displacement(factor=1)
 ```
 
-![png](\assets\2021-03-12-anaStruct\output_10_0.png)
+![png](\assets\2022-05-22-anaStruct\output_10_0.png)
 
-![png](\assets\2021-03-12-anaStruct\output_10_1.png)
+![png](\assets\2022-05-22-anaStruct\output_10_1.png)
 
-![png](\assets\2021-03-12-anaStruct\output_10_2.png)
+![png](\assets\2022-05-22-anaStruct\output_10_2.png)
 
-![png](\assets\2021-03-12-anaStruct\output_10_3.png)
+![png](\assets\2022-05-22-anaStruct\output_10_3.png)
 
 ```python
 
