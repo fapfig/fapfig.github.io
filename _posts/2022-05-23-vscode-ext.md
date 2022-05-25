@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Code Extensions
-categories: [programming, vscode]
+categories: [Programming, VS Code]
 ---
 
 [Visual Studio Code](https://code.visualstudio.com/) (VS Code) is my preferable editor for programming. It has great features built-in. However, there are a lot of extensions that can be installed to add new features and improve productivity. In this post I share some of my favourite Visual Studio Code (VS Code) extensions.

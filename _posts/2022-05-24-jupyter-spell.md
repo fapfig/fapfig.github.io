@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spell Checker in Jupyter
-categories: [programming, python]
+categories: [Programming, Python]
 ---
 
 In this post, I will show you how to automatically check for spell mistakes in your Jupyter notebooks. The steps to follow are those:

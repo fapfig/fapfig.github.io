@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spell Checker in Jupyter
-categories: [programming, python, sympy]
+categories: [Programming, Python, Sympy]
 ---
 
 # Introduction to SymPy
@@ -9,6 +9,8 @@ categories: [programming, python, sympy]
 [![sympy](\assets\2022-05-25-sympy-intro\sympy.svg)](\assets\2022-05-25-sympy-intro\sympy.svg){:.glightbox}
 
 [SymPy](https://www.sympy.org) is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible.
+
+This post only shows some examples for solving equations, derivatives and integrals. For more complete tutorials please check the [SymPy Tutorial](https://docs.sympy.org/latest/tutorial/index.html#tutorial) website.
 
 ```python
 from sympy import*
