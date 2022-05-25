@@ -1,3 +1,9 @@
+---
+layout: post
+title: Spell Checker in Jupyter
+categories: [programming, python, sympy]
+---
+
 # Introduction to SymPy
 
 [![sympy](\assets\2022-05-25-sympy-intro\sympy.svg)](\assets\2022-05-25-sympy-intro\sympy.svg){:.glightbox}
