@@ -182,7 +182,3 @@ ss.show_displacement(factor=1)
 ![png](\assets\2022-05-22-anaStruct\output_10_2.png)
 
 ![png](\assets\2022-05-22-anaStruct\output_10_3.png)
-
-```python
-
-```

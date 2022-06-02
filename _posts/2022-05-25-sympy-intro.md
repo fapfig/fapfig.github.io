@@ -176,7 +176,3 @@ $\displaystyle \pi$
 ## References
 
 1. SymPy 1.10.1 documentation » [SymPy Tutorial](https://docs.sympy.org/latest/tutorial/index.html#tutorial)
-
-```python
-
-```
