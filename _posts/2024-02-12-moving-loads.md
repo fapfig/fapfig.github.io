@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Visual Code Extensions
-categories: [Programming, VS Code]
+title: Beam subjected to moving concentrated loads
+categories: [Engineering, Structures, Bridges]
+author: Fabio P. Figueiredo
 ---
 
 We know that the absolute maximum moment, for the beam shown in Figure 1, will occur under one of the concentrated loads. However, its location along the beam must be known to determine the specific load under which it will occur. In this post, we will determine the location analytically.
 
-[![section](\assets\2022-06-02-ec2-flexure\section.png)](\assets\2024-02-12-inf-line\beam.svg){:.glightbox}
+[![section](\assets\2022-06-02-ec2-flexure\section.png)](\assets\2024-02-12-moving-loads\beam.svg){:.glightbox}
 _Figure 1. Simply supported beam subjected to three moving concentrated loads._
 
 Firstly, we need to calculate the reaction at the support A. For this, take the moment at A:
